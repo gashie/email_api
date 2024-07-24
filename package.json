@@ -1,0 +1,24 @@
+{
+  "name": "emailAPi",
+  "version": "1.0.0",
+  "description": "Api to connect to Nsawa",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server"
+  },
+  "author": "Gashie",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "imap": "^0.8.19",
+    "mailparser": "^3.4.0",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
